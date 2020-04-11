@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style>
 table, thead, tbody, tfoot, tr, th, td {border:2px solid black; border-collapse:collapse; text-align: center;}
-.subject1 {background-color:lightgray;} .subject2 {background-color:#FAF4C0;}
+.subject1 {background-color:lightgray;} .subject2 {background-color:#FAF4C0;} .subject3 {background-color:#FF6E6E;}
+.subject4 {background-color:#E1B771;} .subject5 {background-color:#6AC793;} .subject6 {background-color:#7878E1;}
+.subject7 {background-color:#37B7B7;}
 th, td {width:50px;}
 </style> <!-- border-collapse:collapse 단선으로, 반대는 separate -->
 <title>HTML5 시간표</title>
@@ -17,15 +19,15 @@ th, td {width:50px;}
 <tr><th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
 </thead>
 <tbody>
-<tr><td>1교시</td> <td></td> <td rowspan="2" class="subject1">자료구조</td> <td></td> <td>영미문학</td> <td></td>
-<tr><td>2교시</td> <td></td>  <td></td> <td>영미문학</td> <td></td>
-<tr><td>3교시</td> <td rowspan="2" class="subject2">논리회로</td> <td></td> <td rowspan="2" class="subject1">자료구조</td> <td>영미문학</td> <td></td>
-<tr><td>4교시</td>  <td></td>  <td></td> <td></td>
-<tr><td>5교시</td> <td></td> <td class="subject2">논리회로</td> <td>영어회화</td> <td>인터넷응용</td> <td></td>
-<tr><td>6교시</td> <td>C++</td> <td></td> <td>영어회화</td> <td>인터넷응용</td> <td></td>
-<tr><td>7교시</td> <td>C++</td> <td></td> <td></td> <td></td> <td></td>
-<tr><td>8교시</td> <td>C++</td> <td></td> <td></td> <td>캠퍼스멘토링</td> <td></td>
-<tr><td>9교시</td> <td>C++</td> <td>인터넷응용</td> <td></td> <td></td> <td></td>
+<tr><td>1교시</td> <td></td> <td rowspan="2" class="subject2">자료구조</td> <td></td> <td rowspan="3" class="subject6">영미문학</td> <td></td>
+<tr><td>2교시</td> <td></td> <td></td>  <td></td>
+<tr><td>3교시</td> <td rowspan="2" class="subject1">논리회로</td> <td></td> <td rowspan="2" class="subject2">자료구조</td> <td></td>
+<tr><td>4교시</td> <td></td> <td></td> <td></td>
+<tr><td>5교시</td> <td></td> <td class="subject1">논리회로</td> <td rowspan="2" class="subject5">영어회화</td> <td rowspan="2" class="subject4">인터넷응용</td> <td></td>
+<tr><td>6교시</td> <td rowspan="4" class"subject3">C++</td> <td></td> <td></td>
+<tr><td>7교시</td> <td></td> <td></td> <td></td> <td></td>
+<tr><td>8교시</td> <td></td> <td></td> <td class="subject7">캠퍼스멘토링</td> <td></td>
+<tr><td>9교시</td> <td class="subject4">인터넷응용</td> <td></td> <td></td> <td></td>
 </tbody>
 </table>
 </body>
