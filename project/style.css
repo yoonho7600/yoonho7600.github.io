@@ -4,7 +4,7 @@
 .header, .footer{background-color:#D27D32; color:white; padding:10px;}
 .header img {width:99%; vertical-align:middle;}
 .menu ul {list-style-type:none;}
-.banner ol {list-style-type:decimal;}
+.banner ol {list-style-type:decimal; list-style-position:inside;}
 .menu li { background-color:#c8c8c8; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:gray;}
 .banner li {background-color:#c8c8c8; color:blue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
