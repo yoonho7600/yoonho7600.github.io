@@ -1,15 +1,18 @@
 *{ box-sizing:border-box; padding:0; margin:0;}
 .row::after { content:""; clear:both; display:table;}
 [class*="col-"] {float:left; padding:10px;}
+.header,.nav,.section,.aside,.footer
+{border:1px solid gray; margin:5px; padding:8px; width:1000px;}
 .header, .footer{background-color:#D27D32; color:white; padding:10px;}
 .header img {width:150%; vertical-align:middle;}
-.nav {border:1px solid gray; margin:5px; padding:8px; width:100%;}
+.section{width:750px; float:left;}
+.section section{width:725px; float:left;}
+.aside{width:221px; float:left; line-height:30px;}
+.footer{height:50px; clear:both;}
 .nav ul{margin:0; padding:0;}
 .nav ul li{display:inline; margin:5px;}
-.banner ol {list-style-type:decimal; list-style-position:inside;}
-.banner li {background-color:#c8c8c8; color:blue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
-table, th, td{border:1px solid black;}
-.tby { background-color:yellow;} .tbb { background-color:skyblue; } .tbg { background-color:green; }
+.aside ol {margin:0; padding:0;} {list-style-type:decimal; list-style-position:inside;}
+.aside ol li{display:block; margin:5px;}
 /* for mobile */
 [class*="col-"] {width:100%;}
 @media only screen and (min-width:600px) { /* For tablets: */
