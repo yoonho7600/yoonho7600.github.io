@@ -10,6 +10,10 @@
 .banner li {background-color:#c8c8c8; color:black; border:2px solid black; padding:10px; margin-bottom:4px; box-shadow:0 1px 3px gray;}
 table, th, td {border:1px solid black;}
 .tby {background-color:yellow;} .tbb {background-color:skyblue;} .tbg {background-color:green;}
+a:link{color:blue; background-color:transparent; text-decoration:none;}
+a:visited{color:purple; background-color:transparent; text-decoration:none;}
+a:hover{color:red; background-color:transparent; text-decoration:underline;}
+a:active{color:blue; background-color:transparent; text-decoration:none;}
 /* for mobile */
 [class*="col-"] {width:100%;}
 @media only screen and (min-width:600px) { /* For tablets: */
