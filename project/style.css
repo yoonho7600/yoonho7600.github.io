@@ -2,7 +2,8 @@
 .row::after { content:""; clear:both; display:table;}
 [class*="col-"] {float:left; padding:10px;}
 .header, .footer{background-color:beige ; color:black; padding:10px;}
-.menu ul, .banner ul{list-style-type:none;}
+.menu ul {list-style-type:none;}
+.banner ol {list-style-type:decimal;}
 .menu li { background-color:lightgray; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:gray;}
 .banner li {background-color:lightgray; color:blue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
