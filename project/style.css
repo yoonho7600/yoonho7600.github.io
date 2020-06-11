@@ -1,6 +1,5 @@
-*{ box-sizing:border-box; padding:0; margin:0;}
+*{box-sizing:border-box; padding:0; margin:0;}
 .row::after { content:""; clear:both; display:table;}
-[class*="col-"] {float:left; padding:10px;}
 .header,.nav,.section,.aside,.footer
 {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
 .header, .footer{background-color:#D27D32; color:white; padding:10px;}
