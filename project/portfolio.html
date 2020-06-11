@@ -3,7 +3,23 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" href="style.css"/>
+<style>
+  header,nav,section,article,aside,footer
+{border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+header img{width:990px;height:300px;}
+section{width:750px; float:left;}
+section section{width:725px; float:left;}
+aside{width:221px; float:left; line-height:30px;}
+footer{height:50px; clear:both;}
+nav ul{margin:0; padding:0;}
+nav ul li{display:inline; margin:5px;}
+aside ul{margin:0; padding:0;}
+aside ul li{display:block; margin:5px;}
+a:link{color:blue; background-color:transparent; text-decoration:none;}
+a:visited{color:purple; background-color:transparent; text-decoration:none;}
+a:hover{color:red; background-color:transparent; text-decoration:underline;}
+a:active{color:blue; background-color:transparent; text-decoration:none;}
+  </style>
 <title>개인 포트폴리오</title>
 </head>
 <body>
@@ -43,13 +59,14 @@
     </section>
   </section>
   <aside>
+    <h3>북마크 메뉴</h3>
     <ul>
-       <h3>북마크 메뉴</h3>
        <li><a href="#chapter1">개인정보</a></li>
        <li><a href="#chapter2">수강(예정)과목</a></li>
        <li><a href="#chapter3">자격증</a></li>
        <li><a href="#chapter4">봉사활동</a></li>
        <li><a href="#chapter5">각종 </a></li>
+     <ul>
   </aside>
   <footer>
     <p>&copy; 2020 Made by KimYoonho. All rights reserved.</p>
