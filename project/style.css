@@ -2,13 +2,12 @@
 .row::after { content:""; clear:both; display:table;}
 [class*="col-"] {float:left; padding:10px;}
 .header, .footer{background-color:#D27D32; color:white; padding:10px;}
-.header img {width:90%; vertical-align:middle;}
+.header img {width:99%; vertical-align:middle;}
 .menu ul {list-style-type:none;}
 .banner ol {list-style-type:decimal;}
 .menu li { background-color:#c8c8c8; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:gray;}
 .banner li {background-color:#c8c8c8; color:blue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
-.banner li img {width:30%; vertical-align:middle;}
 table, th, td{border:1px solid black;}
 .tby { background-color:yellow;} .tbb { background-color:skyblue; } .tbg { background-color:green; }
 /* for mobile */
