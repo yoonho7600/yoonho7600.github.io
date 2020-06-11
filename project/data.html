@@ -6,7 +6,10 @@
 <link rel="stylesheet" href="style.css"/>
 <script>
 function click1() {document.getid("id").innerHTML=
-"이름 : 김윤호"}
+"이름 : 김윤호"
+                  <table>
+   <tr><td>이름<td><td>김윤호</td></tr>
+                  </table>}
 </script>
 <title>기본 정보</title>
 </head>
@@ -30,9 +33,9 @@ function click1() {document.getid("id").innerHTML=
   </nav>
   <section class="col-7 col-t-9">
   <ul style="list-style-type:square">
-  <li onclick="click1">인적사항<br/></li>
-  <li onclick="click2">성적<br/></li>
-  <li onclick="click3">시간표<br/></li>
+  <li onclick="click1()">인적사항<br/></li>
+  <li onclick="click2()">성적<br/></li>
+  <li onclick="click3()">시간표<br/></li>
   </ul>
      <p id="id">메세지 표시</p>
     </section>
