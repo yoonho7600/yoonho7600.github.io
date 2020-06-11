@@ -4,7 +4,7 @@
 .header,.nav,.section,.aside,.footer
 {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
 .header, .footer{background-color:#D27D32; color:white; padding:10px;}
-.header img {width:150%; vertical-align:middle;}
+.header img {width:100%; vertical-align:middle;}
 .section{width:750px; float:left;}
 .section section{width:725px; float:left;}
 .aside{width:221px; float:left; line-height:30px;}
