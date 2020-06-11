@@ -4,10 +4,6 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="style.css"/>
-<script>
-function click1() {document.id("id").innerHTML=
-"이름 : 김윤호"}
-</script>
 <title>기본 정보</title>
 </head>
 <body>
@@ -29,13 +25,22 @@ function click1() {document.id("id").innerHTML=
     </ul>
   </nav>
   <section class="col-7 col-t-9">
-  <ul style="list-style-type:square">
-  <li onclick="click1()">인적사항<br/></li>
-  <li onclick="event2onclick()">성적<br/></li>
-  <li onclick="event3onclick()">시간표<br/></li>
-  </ul><br/>
-     <p id="id"></p>
-    </section>
+     <h3>인적사항</h3>
+     <table>
+   <tr><td>이름</td><td>김윤호</td></tr>
+   <tr><td>학번</td><td>20171349</td></tr>
+   <tr><td>학교</td><td>대전대학교</td></tr>
+   <tr><td>학과</td><td>컴퓨터공학</td></tr>
+   <tr><td>성별</td><td>남자</td></tr>
+   <tr><td>생년월일</td><td>1998-07-04</td></tr>
+   <tr><td>전화번호</td><td>010-9387-6455</td></tr>
+  </table><hr/><br/>
+     <h3>성적</h3>
+  <tr><th>학년</th><th>학기</th><th>신청학점</th><th>취득학점</th><th>평점평균</th>
+  <tr><td>1</td><td>1</td><td>18</td><td>18</td><td>3.63</td>
+  <tr><td>1</td><td>2</td><td>18</td><td>18</td><td>3.46</td>
+  <tr><td>2</td><td>1</td><td>17</td><td>미정</td><td>미정</td>
+  </section>
    <aside class="col-3 col-t-12 banner">
     <h3 style="text-align:center;">바로가기 메뉴</h3><br/>
     <ol>
