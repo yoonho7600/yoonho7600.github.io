@@ -5,9 +5,9 @@
 .header img {width:50%; height:20% vertical-align:middle;}
 .menu ul {list-style-type:none;}
 .banner ol {list-style-type:decimal; list-style-position:inside;}
-.menu li {background-color:#c8c8c8; color:black; padding:10px; margin-bottom:4px; box-shadow:0 1px 2px gray;}
+.menu li {background-color:#c8c8c8; color:black; padding:10px; margin-bottom:5px; box-shadow:0 1px 2px gray;}
 .menu li:hover {background-color:gray;}
-.banner li {background-color:#c8c8c8; color:black; border:2px solid black; padding:10px; margin-bottom:4px; box-shadow:0 1px 2px gray;}
+.banner li {background-color:#c8c8c8; color:black; border:2px solid black; padding:10px; margin-bottom:5px; box-shadow:0 1px 2px gray;}
 table, th, td {border:1px solid black;}
 .tby {background-color:yellow;} .tbb {background-color:skyblue;} .tbg {background-color:green;}
 a:link{color:blue; background-color:transparent; text-decoration:none;}
