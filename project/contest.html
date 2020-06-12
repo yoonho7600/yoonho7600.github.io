@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script>
+function  event1onclick() {document.getElementById("id_1").innerHTML
+="<table><tr><th>날짜</th><th>대회 내용</th><th>수상 결과</th></tr><tr><td>20XX-XX-XX</td><td>XX</td><td>XX</td></tr></table><br/><p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p>";}
+function  event2onclick() {document.getElementById("id_1").innerHTML
+="<h4>캡스톤</h4><br/><p>초안 : --- <br/> 총평 및 개선점 : --- </p><br/><hr/><br/><p>X차 초안 : --- <br/> 총평 및 개선점 : --- </p><br/><hr/><br/><p>최종결과 : --- <br/> 총평 : --- </p><br/><br/><p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p>";}
+function  event3onclick() {document.getElementById("id_1").innerHTML
+="<h4>경진대회</h4><br/><table><tr><th>날짜</th><th>대회 내용</th><th>수상 결과</th></tr><tr><td>20XX-XX-XX</td><td>XX</td><td>XX</td></tr></table><br/><p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p>";}
+</script>
 <link rel="stylesheet" href="style.css"/>
 <title>각종 공모전</title>
 </head>
@@ -25,24 +33,13 @@
     </ul>
   </nav>
   <section class="col-7 col-t-9">
-  <h3>각종 공모전 참여 기록</h3><br/>
-  <h4>해카톤</h4><br/>
-  <table>
-   <tr><th>날짜</th><th>대회 내용</th><th>수상 결과</th></tr>
-   <tr><td>20XX-XX-XX</td><td>XX</td><td>XX</td></tr>
-  </table><br/>
-  <p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p><br/><hr/><br/>
-  <h4>캡스톤</h4><br/>
-  <p>초안 : --- <br/> 총평 및 개선점 : --- </p><br/><hr/><br/>
-  <p>X차 초안 : --- <br/> 총평 및 개선점 : --- </p><br/><hr/><br/>
-  <p>최종결과 : --- <br/> 총평 : --- </p><br/><br/>
-  <p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p><br/><hr/><br/>
-  <h4>경진대회</h4><br/>
-  <table>
-   <tr><th>날짜</th><th>대회 내용</th><th>수상 결과</th></tr>
-   <tr><td>20XX-XX-XX</td><td>XX</td><td>XX</td></tr>
-  </table><br/>
-  <p>아직 대학교에 들어와서 참여해본 적이 없습니다...</p>
+     <h3>각종 공모전 참여 기록</h3><br/>
+<ul style="list-style-type:square; list-style-position:inside;"> 
+<li onclick="event1onclick()">해카톤</li><br/>
+<li onclick="event2onclick()">캡스톤</li><br/>
+<li onclick="event3onclick()">경진 대회</li><br/>
+</ul>
+<p id="id_1">보고 싶은 것을 클릭하시면 메세지가 표시됩니다.</p>
     </section>
    <aside class="col-3 col-t-12 banner">
     <h3 style="text-align:center;">바로가기 메뉴</h3><br/>
